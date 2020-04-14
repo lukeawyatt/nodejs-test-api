@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "json-server": "^0.16.1"
+  "dependencies": {
+	"json-server": "^0.16.1"
   },
   "scripts": {
 	"start": "node index.js",
