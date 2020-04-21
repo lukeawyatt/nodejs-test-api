@@ -18,6 +18,7 @@ const rules = auth.rewriter({
 	secureMessages: 600
 })
 
+
 server.db = router.db;
 
 server.use(middlewares);
