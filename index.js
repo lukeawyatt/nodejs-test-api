@@ -19,6 +19,7 @@ const rules = auth.rewriter({
 })
 
 server.use(middlewares);
+server.use(rules);
 server.use(auth);
 server.use(router);
 
