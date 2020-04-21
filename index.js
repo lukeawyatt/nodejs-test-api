@@ -15,7 +15,7 @@ const rules = auth.rewriter({
 	photos: 666,
 	users: 666,
 	todos: 666,
-	secureMessages: 600
+	secureMessages: 660
 })
 
 
