@@ -9,12 +9,12 @@ const PORT = process.env.PORT || 3000;
 
 const rules = auth.rewriter({
 	// Permission rules
-	// posts: 600,
-	// comments: 600,
-	// albums: 600,
-	// photos: 600,
-	// users: 600,
-	// todos: 640
+	posts: 666,
+	comments: 666,
+	albums: 666,
+	photos: 666,
+	users: 666,
+	todos: 666
 	secureMessages: 600
 })
 
